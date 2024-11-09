@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-images {
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 300px; /* 设置一个高度，或者根据需要调整 */
+    margin: 20px 0; /* 添加一些外边距 */
+}
+
+#game-image {
+    max-width: 100%; /* 确保图片不会超出容器宽度 */
+    max-height: 100%; /* 确保图片不会超出容器高度 */
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}

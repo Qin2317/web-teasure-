@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页寻宝游戏</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio id="background-music" controls autoplay loop>
+        <source src="music/music.mp3" type="audio/mpeg">
+    </audio>
+    <div id="game-container">
+        <h1>网页寻宝游戏</h1>
+        <div id="player-info">
+            <p>玩家ID：<span id="player-id"></span></p>
+            <p>昵称：<span id="player-nickname"></span></p>
+            <p>游戏历史：<span id="game-history"></span></p>
+        </div>
+        <button id="start-game">开始游戏</button>
+        <div id="game-content"></div>
+        <div id="game-images">
+            <img id="game-image" src="" alt="Game Image" style="display: none;">
+        </div>
+        <div id="game-text"></div>
+        <button id="continue-exploring" style="display: none;">继续探索</button>
+        
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
